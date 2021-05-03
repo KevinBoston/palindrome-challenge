@@ -1,4 +1,3 @@
-const logicCheck = require('./logic')
+const promptUser = require('./prompts')
 
-console.log(logicCheck('racecar'))
-console.log(logicCheck('bananna'))
+promptUser.question();

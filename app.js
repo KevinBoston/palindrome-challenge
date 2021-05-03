@@ -1,5 +1,4 @@
-const Palindrome = require('./palindrome')
-const palindrome = new Palindrome()
+const logicCheck = require('./logic')
 
-console.log(palindrome.check('racecar'))
-console.log(palindrome.check('bananna'))
+console.log(logicCheck('racecar'))
+console.log(logicCheck('bananna'))
